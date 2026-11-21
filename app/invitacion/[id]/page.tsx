@@ -8,7 +8,6 @@ import { Guest } from '@/lib/types';
 import IntroVideo from '@/components/IntroVideo';
 import BackgroundVideo from '@/components/BackgroundVideo';
 import EventDetails from '@/components/EventDetails';
-import GiftRegistry from '@/components/GiftRegistry';
 import RsvpSection from '@/components/RsvpSection';
 
 export default function InvitationPage() {
@@ -106,11 +105,8 @@ export default function InvitationPage() {
           </p>
         </section>
 
-        {/* Detalles del Evento y Mapa de Pamplona */}
+        {/* Detalles del Evento Virtual */}
         <EventDetails />
-
-        {/* Mesa de Regalos con actualización en tiempo real */}
-        <GiftRegistry guestId={guest.id} guestName={guest.name} />
 
         {/* Confirmación RSVP Web + WhatsApp */}
         <RsvpSection guest={guest} weddingPhone="573108726049" />
