@@ -2,7 +2,7 @@ import React from 'react';
 import { Calendar, Clock, Video, ExternalLink } from 'lucide-react';
 
 // Cambia este enlace cuando tengas el link definitivo de la transmisión
-const STREAM_URL = 'https://youtube.com';
+const STREAM_URL = 'https://youtube.com/live/mnF0deqyigg?feature=share';
 const STREAM_LABEL = 'youtube.com';
 
 export default function EventDetails() {
